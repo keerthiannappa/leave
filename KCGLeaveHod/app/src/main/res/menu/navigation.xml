@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_od"
+        android:icon="@drawable/ic_ass"
+        android:title="@string/title_od" />
+
+    <item
+        android:id="@+id/navigation_leave"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_leave" />
+
+
+</menu>

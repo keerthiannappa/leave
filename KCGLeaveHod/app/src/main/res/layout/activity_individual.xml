@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.ac.kcgcollege.kcgleavehod.IndividualActivity">
+
+    <FrameLayout
+        android:id="@+id/frag_leave_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/frag_leave_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="480dp"
+            android:background="@color/colorAccent"
+            android:text="Reject"
+            android:textColor="@android:color/holo_red_dark" />
+        <Button
+            android:id="@+id/frag_leave_grant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="480dp"
+            android:background="@color/colorAccent"
+            android:text="Grant"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/frag_leave_status"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="5dp"
+            android:background="#c62828"
+            android:fontFamily="sans-serif-condensed"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/frag_leave_n"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_r"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Reg. No."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/frag_leave_nods"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="OD"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/frag_leave_nleaves"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Leave"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/frag_leave_nod"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:background="#c62828"
+            android:fontFamily="sans-serif-condensed"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/frag_leave_nleave"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="30dp"
+            android:background="#c62828"
+            android:fontFamily="sans-serif-condensed"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/frag_leave_f"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="From"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_t"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="To"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_re"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="350dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Reason"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_ty"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/semi5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="295dp"
+            android:fontFamily="casual"
+            android:text=":"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/semi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="casual"
+            android:text=":"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/semi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="105dp"
+            android:fontFamily="casual"
+            android:text=":"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/semi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="155dp"
+            android:fontFamily="casual"
+            android:text=":"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/semi6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="205dp"
+            android:fontFamily="casual"
+            android:text="-"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag_leave_s"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Status"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/frag_leave_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Registration Number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/frag_leave_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Days"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/frag_leave_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="from"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/frag_leave_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="to"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:layout_width="325dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="380dp">
+
+            <TextView
+                android:id="@+id/frag_leave_reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="reason"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="24sp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/frag_leave_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/frag_leave_d"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="No. of Days"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/frag_leave_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:text="Sorry! No Data Found."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+</android.support.design.widget.CoordinatorLayout>
